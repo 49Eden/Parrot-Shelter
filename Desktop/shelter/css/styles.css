@@ -1,22 +1,46 @@
+body {
+  font-weight: bold;
+}
+
+
+
 .column {
   width: 200px;
   float: left;
-  margin: 100px
+  margin: 100px;
+  color: purple;
 }
 
 .column2 {
   width: 200px;
   float: left;
-  margin: 100px
+  margin: 100px;
+  color: blue;
 }
 
 .column3 {
   width: 200px;
   float: left;
-  margin: 100px
+  margin: 100px;
+  color: pink;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: green;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: teal;
+  }
 }
 
 
+/*Mobile screens (roughly 300 - 480 pixels wide)
+Medium and tablet screens (roughly 700 - 1000 pixels wide)*/
 
 
 
